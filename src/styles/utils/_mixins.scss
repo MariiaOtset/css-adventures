@@ -1,0 +1,24 @@
+// @mixin circle($width, $height, $color) {
+//   width: $width;
+//   height: $height;
+//   background-color: $color;
+//   border-radius: 50%;
+// }
+
+// @mixin bordered($color, $width) {
+//   border: $width solid $color;
+// }
+
+// .myArticle {
+//   @include bordered(blue, 1px);
+// }
+
+// .myNotes {
+//   @include bordered(red, 2px);
+// }
+
+// @mixin flex-center {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
