@@ -1,3 +1,2 @@
-.title {
-  color: #34ca57;
-}/*# sourceMappingURL=main.css.map */
+@import url("./_base.scss");
+@import url("./utils/_variables.scss");/*# sourceMappingURL=main.css.map */

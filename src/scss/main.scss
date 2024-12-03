@@ -1,5 +1,2 @@
-$hi: #34ca57;
-
-.title {
-  color: $hi;
-}
+@import url("./_base.scss");
+@import url("./utils/_variables.scss");

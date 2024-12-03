@@ -1,0 +1,13 @@
+:root {
+  --color-my-favorite: #5eff00;
+}
+
+.variableFavoriteColor {
+  color: var(--color-my-favorite);
+}
+
+$hi: #ae34ca;
+
+.saasVariable {
+  color: $hi;
+}
