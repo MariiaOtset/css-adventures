@@ -14,7 +14,3 @@
 @mixin bordered($color, $width) {
   border: $width solid $color;
 }
-
-@mixin buttonFirst {
-  background-color: #a6937c;
-}

@@ -1,6 +1,7 @@
 @use "./styles/utils/mixins" as *;
 @import "./styles/utils/variables";
 @import "./styles/components/Button.scss";
+@import "./styles/sass/_test.sass";
 
 #root {
   max-width: 1280px;
