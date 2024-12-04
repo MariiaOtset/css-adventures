@@ -1,29 +1,15 @@
-// import "./App.css";
-// import "./scss/main.css";
-// import "./scss/main.scss";
-// import "./scss/components/_App.scss";
-
-// function App() {
-//   return (
-//     <>
-//       <p className="saasVariable">Hello world</p>
-//       <p className="variableFavoriteColor">My favorite color is lightgreen</p>
-//       <span className="circle">Mixin</span>
-//       <span className="circle">Mixin</span>
-//     </>
-//   );
-// }
-
-// export default App;
-
-import "./styles/main.scss";
-import Buttons from "./components/Buttons/Buttons.jsx";
+import "./App.scss";
+import ButtonsWrapper from "./components/ButtonsWrapper.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <Buttons>Click me</Buttons>
-    </div>
+    <>
+      <p className="variableText">My favorite color</p>
+      <div className="circle">Mixin circle</div>
+      <ButtonsWrapper />
+      <p className="textHello">Hello world</p>
+      <p className="variableFavoriteColor">My favorite color is lightgreen</p>
+    </>
   );
 }
 

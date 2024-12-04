@@ -1,24 +1,20 @@
-// @mixin circle($width, $height, $color) {
-//   width: $width;
-//   height: $height;
-//   background-color: $color;
-//   border-radius: 50%;
-// }
+@mixin circleWithArguments($width, $height, $color) {
+  border-radius: 50%;
+  width: $width;
+  height: $height;
+  background-color: $color;
+}
 
-// @mixin bordered($color, $width) {
-//   border: $width solid $color;
-// }
+@mixin centeredContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-// .myArticle {
-//   @include bordered(blue, 1px);
-// }
+@mixin bordered($color, $width) {
+  border: $width solid $color;
+}
 
-// .myNotes {
-//   @include bordered(red, 2px);
-// }
-
-// @mixin flex-center {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// }
+@mixin buttonFirst {
+  background-color: #a6937c;
+}

@@ -7,11 +7,8 @@
 }
 
 $hi: #ae34ca;
-$hi-dark: darken($hi, 50%);
+$hi-dark: lighten($hi, 20%);
 
-.saasVariable {
-  color: $hi-dark;
-}
-
-$primary-color: #007bff;
-$background-color: #f0f0f0;
+$my-fav-color: #39f233;
+$first-button-color: #0f90ec;
+$second-button-background-color: #dead8d;
